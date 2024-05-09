@@ -1,0 +1,393 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: INSTRUCTION_MEMORY.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "INSTRUCTION_MEMORY.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "INSTRUCTION_MEMORY"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : INSTRUCTION_MEMORY
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Youssef_project\Youssef_project\Joe\INSTRUCTION_MEMORY.vhd" into library work
+Parsing entity <INSTRUCTION_MEMORY>.
+Parsing architecture <Behavioral> of entity <instruction_memory>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <INSTRUCTION_MEMORY> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <INSTRUCTION_MEMORY>.
+    Related source file is "D:\Youssef_project\Youssef_project\Joe\INSTRUCTION_MEMORY.vhd".
+WARNING:Xst:2999 - Signal 'Reg_array', unconnected in block 'INSTRUCTION_MEMORY', is tied to its initial value.
+    Found 32-bit adder for signal <n0012> created at line 1241.
+    Found 32-bit adder for signal <n0013> created at line 1241.
+    Found 32-bit adder for signal <n0014> created at line 1241.
+    Found 32x8-bit dual-port Read Only RAM <Mram_Reg_array> for signal <Reg_array>.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+Unit <INSTRUCTION_MEMORY> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x8-bit dual-port Read Only RAM                      : 2
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <INSTRUCTION_MEMORY>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Reg_array> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <READ_ADDRESS>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <INS>           |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     addrB          | connected to signal <n0012>         |          |
+    |     doB            | connected to signal <INS>           |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Reg_array1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0013>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <INS>           |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     addrB          | connected to signal <n0014>         |          |
+    |     doB            | connected to signal <INS>           |          |
+    -----------------------------------------------------------------------
+Unit <INSTRUCTION_MEMORY> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x8-bit dual-port distributed Read Only RAM          : 2
+# Adders/Subtractors                                   : 3
+ 5-bit adder                                           : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <INSTRUCTION_MEMORY> ...
+INFO:Xst:2399 - RAMs <Mram_Reg_array8>, <Mram_Reg_array9> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <Mram_Reg_array17>, <Mram_Reg_array18> are equivalent, second RAM is removed
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block INSTRUCTION_MEMORY, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : INSTRUCTION_MEMORY.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 15
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 3
+#      LUT3                        : 3
+#      LUT4                        : 3
+#      LUT5                        : 2
+#      VCC                         : 1
+# RAMS                             : 14
+#      RAM32X1D                    : 14
+# IO Buffers                       : 37
+#      IBUF                        : 5
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   41  out of  63400     0%  
+    Number used as Logic:                13  out of  63400     0%  
+    Number used as Memory:               28  out of  19000     0%  
+       Number used as RAM:               28
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     41
+   Number with an unused Flip Flop:      41  out of     41   100%  
+   Number with an unused LUT:             0  out of     41     0%  
+   Number of fully used LUT-FF pairs:     0  out of     41     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          64
+ Number of bonded IOBs:                  37  out of    210    17%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+N0                                 | NONE(Mram_Reg_array2)  | 14    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.193ns
+   Maximum output required time after clock: 1.145ns
+   Maximum combinational path delay: 1.510ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'N0'
+  Total number of paths / destination ports: 322 / 140
+-------------------------------------------------------------------------
+Offset:              1.193ns (Levels of Logic = 2)
+  Source:            READ_ADDRESS<4> (PAD)
+  Destination:       Mram_Reg_array2 (RAM)
+  Destination Clock: N0 rising
+
+  Data Path: READ_ADDRESS<4> to Mram_Reg_array2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   0.001   0.725  READ_ADDRESS_4_IBUF (Madd_n0012_Madd_lut<4>)
+     LUT5:I0->O            7   0.097   0.307  n0014<4>1 (n0014<4>)
+     RAM32X1D:DPRA4            0.063          Mram_Reg_array12
+    ----------------------------------------
+    Total                      1.193ns (0.161ns logic, 1.032ns route)
+                                       (13.5% logic, 86.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'N0'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.145ns (Levels of Logic = 1)
+  Source:            Mram_Reg_array8 (RAM)
+  Destination:       INS<31> (PAD)
+  Source Clock:      N0 rising
+
+  Data Path: Mram_Reg_array8 to INS<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM32X1D:WCLK->SPO    2   0.862   0.283  Mram_Reg_array8 (INS_30_OBUF)
+     OBUF:I->O                 0.000          INS_31_OBUF (INS<31>)
+    ----------------------------------------
+    Total                      1.145ns (0.862ns logic, 0.283ns route)
+                                       (75.3% logic, 24.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 368 / 32
+-------------------------------------------------------------------------
+Delay:               1.510ns (Levels of Logic = 4)
+  Source:            READ_ADDRESS<4> (PAD)
+  Destination:       INS<23> (PAD)
+
+  Data Path: READ_ADDRESS<4> to INS<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   0.001   0.725  READ_ADDRESS_4_IBUF (Madd_n0012_Madd_lut<4>)
+     LUT5:I0->O            7   0.097   0.307  n0014<4>1 (n0014<4>)
+     RAM32X1D:DPRA4->DPO    2   0.097   0.283  Mram_Reg_array17 (INS_6_OBUF)
+     OBUF:I->O                 0.000          INS_7_OBUF (INS<7>)
+    ----------------------------------------
+    Total                      1.510ns (0.195ns logic, 1.315ns route)
+                                       (12.9% logic, 87.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.56 secs
+ 
+--> 
+
+Total memory usage is 4616880 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

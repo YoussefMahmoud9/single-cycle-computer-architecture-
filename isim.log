@@ -1,0 +1,37 @@
+ISim log file
+Running: E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\TEST_PROCESS_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/TEST_PROCESS_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /test_process/uut/add_adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/reg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/reg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process instructionmemormytwo.vhd:52 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /test_process/uut/add_adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/ins_memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/reg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_process/uut/reg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process instructionmemormytwo.vhd:52 
+ 
+INFO: Simulator is stopped.

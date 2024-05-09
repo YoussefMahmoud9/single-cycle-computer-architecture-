@@ -1,0 +1,49 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/TEST_PROCESS_isim_beh.exe" -prj "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/TEST_PROCESS_beh.prj" "work.TEST_PROCESS" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/Two_to_one_mux_5.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/Two_to_one_mux_32.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/SIGN_EXTEND.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/SHIFT_LEFT_EXT_2.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/SHIFT_LEFT_2.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/RegFile.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/PC.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/instructionmemormytwo.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/FULL_ADDER.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/DATA_MEMOMRY.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/Control_unit.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/ALU_CONTROL.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/ALU.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/PROCESSER.vhd" into library work
+Parsing VHDL file "E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/TEST_PROCESS.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Two_to_one_mux_5 [two_to_one_mux_5_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity FULL_ADDER [full_adder_default]
+Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity SHIFT_LEFT_EXT_2 [shift_left_ext_2_default]
+Compiling architecture behavioral of entity RegFile [regfile_default]
+Compiling architecture behavioral of entity SIGN_EXTEND [sign_extend_default]
+Compiling architecture behavioral of entity SHIFT_LEFT_2 [shift_left_2_default]
+Compiling architecture behavioral of entity ALU_CONTROL [alu_control_default]
+Compiling architecture behavioral of entity Two_to_one_mux_32 [two_to_one_mux_32_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DATA_MEMOMRY [data_memomry_default]
+Compiling architecture behavioral of entity Control_unit [control_unit_default]
+Compiling architecture behavioral of entity PROCESSER [processer_default]
+Compiling architecture behavior of entity test_process
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\TEST_PROCESS_isim_beh.exe.sim\libPortability.dll".
+Compiled 34 VHDL Units
+Built simulation executable E:/TERM 6/ARCH/LAB/sdgfszdgzdsrgzgf/Youssef_project/Youssef_project/Joe/TEST_PROCESS_isim_beh.exe
+Fuse Memory Usage: 37112 KB
+Fuse CPU Usage: 640 ms
