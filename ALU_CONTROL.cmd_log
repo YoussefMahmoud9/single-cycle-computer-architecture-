@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "F:/Youssef_project/Youssef_project/Joe/ALU_CONTROL.xst" -ofn "F:/Youssef_project/Youssef_project/Joe/ALU_CONTROL.syr" 
+xst -intstyle ise -ifn "F:/Youssef_project/Youssef_project/Joe/ALU_CONTROL.xst" -ofn "F:/Youssef_project/Youssef_project/Joe/ALU_CONTROL.syr" 
+xst -intstyle ise -ifn "D:/Student/Desktop/Youssef_project/Youssef_project/Joe/ALU_CONTROL.xst" -ofn "D:/Student/Desktop/Youssef_project/Youssef_project/Joe/ALU_CONTROL.syr" 
