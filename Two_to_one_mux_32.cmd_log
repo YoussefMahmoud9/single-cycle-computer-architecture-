@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Youssef_project/Joe/Two_to_one_mux_32.xst" -ofn "C:/Youssef_project/Joe/Two_to_one_mux_32.syr" 
+xst -intstyle ise -ifn "C:/Youssef_project/Joe/Two_to_one_mux_32.xst" -ofn "C:/Youssef_project/Joe/Two_to_one_mux_32.syr" 
