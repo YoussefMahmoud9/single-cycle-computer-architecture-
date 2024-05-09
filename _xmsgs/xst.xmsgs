@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\DATA_MEMOMRY.vhd" Line 43: <arg fmt="%s" index="1">mm</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\DATA_MEMOMRY.vhd" Line 44: <arg fmt="%s" index="1">mm</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\DATA_MEMOMRY.vhd" Line 45: <arg fmt="%s" index="1">mm</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\DATA_MEMOMRY.vhd" Line 46: <arg fmt="%s" index="1">mm</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_five</arg>&gt; of block &lt;<arg fmt="%s" index="4">Two_to_one_mux_5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">147</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pc_count</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">151</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">add_adder</arg>&gt; of block &lt;<arg fmt="%s" index="4">FULL_ADDER</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">155</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ins_memory</arg>&gt; of block &lt;<arg fmt="%s" index="4">InstructionMemory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">159</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">shl_ext</arg>&gt; of block &lt;<arg fmt="%s" index="4">SHIFT_LEFT_EXT_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">166</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegFile</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">175</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sign_extd</arg>&gt; of block &lt;<arg fmt="%s" index="4">SIGN_EXTEND</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">178</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">shl</arg>&gt; of block &lt;<arg fmt="%s" index="4">SHIFT_LEFT_2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">181</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">add_adder_after_shl</arg>&gt; of block &lt;<arg fmt="%s" index="4">FULL_ADDER</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">185</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu_control_add</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU_CONTROL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">189</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_one</arg>&gt; of block &lt;<arg fmt="%s" index="4">Two_to_one_mux_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">194</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu_alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">200</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">data_memory</arg>&gt; of block &lt;<arg fmt="%s" index="4">DATA_MEMOMRY</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">207</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_two</arg>&gt; of block &lt;<arg fmt="%s" index="4">Two_to_one_mux_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">213</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_three</arg>&gt; of block &lt;<arg fmt="%s" index="4">Two_to_one_mux_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">218</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_four</arg>&gt; of block &lt;<arg fmt="%s" index="4">Two_to_one_mux_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\TERM 6\ARCH\LAB\sdgfszdgzdsrgzgf\Youssef_project\Youssef_project\Joe\PROCESSER.vhd</arg>&quot; line <arg fmt="%d" index="2">225</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">control_unit_unit</arg>&gt; of block &lt;<arg fmt="%s" index="4">Control_unit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">PROCESSER</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>
+
